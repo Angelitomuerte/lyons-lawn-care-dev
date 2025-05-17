@@ -36,11 +36,13 @@ export default function GrassAnimation() {
   return (
     <>
       <motion.div
+      initial={false}
         ref={grassRef}
         className="fixed left-8 bottom-0 w-6 bg-green-600 rounded-t-md z-40 origin-bottom"
         style={{ height: grassHeight }}
       />
       <motion.div
+      initial={false}
         className="fixed right-8 bottom-0 w-6 bg-green-600 rounded-t-md z-40 origin-bottom"
         style={{ height: grassHeight }}
       />
