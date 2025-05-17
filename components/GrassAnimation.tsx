@@ -12,7 +12,6 @@ export default function GrassAnimation() {
 
   // Grass height scales as you scroll down
   const grassHeight = useTransform(scrollYProgress, [0, 1], [10, 150])
-
   const [chopped, setChopped] = useState(false)
 
   useEffect(() => {
@@ -29,7 +28,9 @@ export default function GrassAnimation() {
     const node = contactRef.current
     if (node) observer.observe(node)
 
-    return () => node && observer.unobserve(node)
+    return () => {
+      if (node) observer.unobserve(node)
+    }
   }, [])
 
   return (
