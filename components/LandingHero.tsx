@@ -1,13 +1,10 @@
 // File: components/LandingHero.tsx
 
-import Image from 'next/image'
-import GrassAnimation from './GrassAnimation'
+import Image from 'next/image';
 
 export default function LandingHero() {
   return (
     <section id="home" className="relative bg-dark text-accent py-20 px-4 overflow-hidden">
-      <GrassAnimation />
-
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 relative z-10">
         <div className="space-y-6 max-w-xl fade-in">
           <h2 className="text-4xl font-bold text-white">Welcome to Lyons Lawn Care LLC</h2>
@@ -32,5 +29,5 @@ export default function LandingHero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

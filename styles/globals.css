@@ -25,5 +25,31 @@ body {
     transform: translateY(0);
   }
 }
+@keyframes blade-sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
 
+@keyframes clipping {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-60px) rotate(360deg);
+  }
+}
+
+.animate-blade-sweep {
+  animation: blade-sweep 1.2s ease-out forwards;
+}
+
+.animate-clipping {
+  animation: clipping 1s ease-out forwards;
+}
 /* Custom layout utilities can be moved here or componentized as needed */
