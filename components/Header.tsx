@@ -1,4 +1,5 @@
 // File: components/Header.tsx
+"use client";
 
 import { useState } from 'react'
 import Link from 'next/link'

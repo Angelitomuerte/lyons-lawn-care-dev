@@ -1,4 +1,6 @@
 // components/BladeSweep.tsx
+"use client";
+
 import { useEffect, useState } from 'react';
 
 interface BladeSweepProps {

@@ -1,4 +1,6 @@
 // components/GrassClippings.tsx
+"use client";
+
 import { useEffect, useState } from 'react';
 
 interface ClippingProps {
