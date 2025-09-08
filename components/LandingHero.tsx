@@ -12,7 +12,7 @@ export default function LandingHero() {
             High-end, honest yard service rooted in family values and built on quality work.
           </p>
           <a
-            href="https://clienthub.getjobber.com/client_hubs/8ae4271f-8435-49c3-b849-1bdb0e613fc5/public/work_request/new"
+            href="https://clienthub.getjobber.com/client_hubs/[REDACTED]/public/work_request/new"
             className="inline-block bg-accent text-primary font-semibold px-6 py-3 rounded hover:bg-[#3cbf3a] transition"
           >
             Request an Estimate
